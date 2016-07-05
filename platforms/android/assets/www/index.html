@@ -44,18 +44,16 @@
 
 <body>
     <div class="app">
-        <h1>Working</h1>
-        <div id="deviceready" class="blink">
-            <p class="event listening">Connecting to Device</p>
-            <p class="event received">Device is Ready</p>
-        </div>
-		<div><button onclick="faireLocalisation()" >traiterGeolocation</button></div>
+        
+		<div id='resultAjax'> Résultat ajax <div>
+		<div><button onclick="obtenirSession()" >startSession</button></div>
+		<a href='menu.html'>GOMENU</a>
     </div>
 	
 
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
-	
+	<script type="text/javascript" src="js/jquery-3.0.0.min.js"></script>
 	<script type="text/javascript" src="js/uwc_js.js"></script>
     <script type="text/javascript">
         app.initialize();
